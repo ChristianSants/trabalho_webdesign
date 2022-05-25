@@ -1,0 +1,24 @@
+.btn-primary {
+    color: #fff;
+    background-color: #359830 !important;
+    border-color: #359830 !important;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #359830, #144D11) !important;
+}
+
+h1{
+    color: #fff;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #ccc !important;
+}
+
+.masthead {
+    background-color: #f8f9fa;
+    padding-top: 5.5rem;
+    padding-bottom:0rem;
+}
