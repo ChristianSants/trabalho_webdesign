@@ -22,3 +22,20 @@ h1{
     padding-top: 5.5rem;
     padding-bottom:0rem;
 }
+
+section{
+    padding-bottom: 1px !important;
+}
+
+.text-primary{
+    color: #359830 !important;
+}
+
+.meuHr{
+    margin: 0px !important;
+    background-color: #359830 !important;
+    color: #359830 !important;
+    height: 10px !important;
+    transform: rotate(-2deg);
+    opacity: 1;
+}
