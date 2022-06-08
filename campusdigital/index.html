@@ -15,24 +15,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/estilo.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="../css/estilo.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg py-0 navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
                 <!-- <a class="navbar-brand fw-bold" href="#page-top">Start Bootstrap</a> -->
-                <img src="assets/img/logo-if-padrao.png" alt="Logo" width="250px">
+                <img src="../assets/img/logo-if-padrao.png" alt="Logo" width="250px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3 active" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="campusdigital/">Campus Digital</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="moodle/">Moodle</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3 active" href="/campusdigital">Campus Digital</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="/moodle">Moodle</a></li>
                     </ul>
                     <!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
@@ -53,13 +53,13 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">Guia do Aluno</h1>
-                            <p class="lead fw-normal text-muted mb-5">O guia do aluno tem a finalidade de informar e orientar os alunos sobre o funcionamento dos sistemas e serviços do Campus POA.</p>
+                            <h1 class="display-1 lh-1 mb-3">Campus Digital</h1>
+                            <p class="lead fw-normal text-muted mb-5">O Campus Digital é o portal de serviços do IFRS Campus POA. Nele, você encontra os principais serviços online que o Campus oferece para a comunidade acadêmica.</p>
                         </div>
                     </div>
                     <div class="col"></div>
                     <div class="col-lg-4">
-                        <img src="assets/img//estudante.png" width="250px" alt="Estudante" >
+                        <!-- <img src="../assets/img/estudante.png" width="250px" alt="Estudante"> -->
                     </div>
                 </div>
             </div>
@@ -95,15 +95,15 @@
                                 </div>
                                 <div class="col-md-4 col-xs-12 mb-3 text-center">
                                     <!-- Feature item-->
-                                    <img src="assets/img/campus_digital.png" class="mb-2" width="300px" alt="logo campus digital">
+                                    <img src="../assets/img/logo-if-padrao.png" class="mb-2" width="300px" alt="logo campus digital">
                                     <div class="text-center">
                                         <!-- <h3 class="font-alt">Campus Digital</h3> -->
-                                        <p class="text-cinza mb-0 p-3">O Campus Digital é o portal de serviços do IFRS Campus POA. Nele, você encontra os principais serviços online que o Campus oferece para a comunidade acadêmica.</p>
+                                        <p class="text-cinza mb-0 p-3">O guia do aluno tem a finalidade de informar e orientar os alunos sobre o funcionamento dos sistemas e serviços do Campus POA.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-xs-12 mb-3 text-center">
                                     <!-- Feature item-->
-                                    <img src="assets/img/moodle.png" class="mb-2" width="250px" alt="logo campus digital">
+                                    <img src="../assets/img/moodle.png" class="mb-2" width="250px" alt="logo campus digital">
                                     <div class="text-center">
                                         <!-- <h3 class="font-alt">Moodle</h3> -->
                                         <p class="text-cinza text-left mb-0 p-3">É o Ambiente Virtual de Aprendizagem adotado pelo Campus POA. Nele o aluno pode acessar o conteúdo das aulas, enviar trabalhos, participar de fóruns e trocar mensagens com seus colegas e professores.</p>
@@ -138,48 +138,68 @@
             </div>
         </section>
 
-        <!-- Meu cadastro-->
-        <section class="bg-light bg-gradient-primary-to-secondary py-5" id="meu-cadastro">
+        <!-- Rematricula-->
+        <section class="bg-light bg-gradient-primary-to-secondary py-5" id="rematricula">
             <div class="container px-5 text-center">
 
                 <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
-                        <h2 class="display-4 lh-1 mb-4 text-white text-center">Meu Cadastro</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <h2 class="display-4 lh-1 mb-4 text-white text-center">Rematrícula</h2>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p> -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p>
-                    </div>
-                    <div class="col-6">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Senha:</b><br />Número do seu RG.</p>
+                    <div class="col-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                              <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- Primeiro acesso bg-light-->
+
+
+        <!-- Avaliações e Frequência -->
         <section class="bg-white py-5" id="primeiro-acesso">
             <div class="container px-5 text-left">
 
                 <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
-                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Primeiro acesso</h2>
+                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Avaliações e Frequência</h2>
                         <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
                         <br />
                         <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 px-5">
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">A sua senha de acesso, como dito antes, é o <b>número do seu RG</b>. Mas no primeiro acesso a um dos nossos computadores do Campus POA será solicitado que você escolha uma nova senha.
-                        </p>
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Acesse o Campus Digital para visualizar informações sobre seu curso, suas notas, avaliações, frequência e carga horária de cada disciplina.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você pode acessar os computadores entrando com seu usuário e senha na tela de Logon.</p>
                         <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
                     </div>
-                    <div class="col-6 px-5">
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p>
+                    <div class="col-4 text-left">
+                        <img src="../assets/img/avaliacoes.jpg" class="img-fluid" alt="imagem avaliação">
                     </div>
                 </div>
 
@@ -187,6 +207,156 @@
         </section>
 
         <hr class="meuHr">
+        
+        <!-- Histórico do curso -->
+        <section class="bg-white py-5" id="primeiro-acesso">
+            <div class="container px-5 text-left">
+
+                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Histórico do curso</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <img src="../assets/img/historico.jpg" class="img-fluid" alt="imagem historico">
+                    </div>
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Acesse seu histórico para visualizar e imprimir os componentes curriculares do seu curso, assim como seus conceitos e a situação das disciplinas.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Dentro do Campus Digital, selecione o menu Acadêmico, localize a área Histórico e clique na opção Emitir/Visualizar.</p>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                    </div>
+                   
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Comprovante de matrícula -->
+        <section class="bg-white bg-gradient-primary-to-secondary py-5" id="primeiro-acesso">
+            <div class="container px-5 text-left">
+
+                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4 text-white text-center">Comprovante de matrícula</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Pelo Campus Digital você pode visualizar e imprimir seu próprio comprovante de matrícula.</p>
+                        <br />
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Como acessar:</b></p>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Clique no menu Acadêmico e escolha a opção Efetuar/Modificar matrícula. Para imprimir seu comprovante de matrícula, clique no botão Emitir comprovante de Matrícula no final da página.</p>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="../assets/img/comprov.jpg" class="img-fluid" alt="imagem comprovante">
+                    </div>                   
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="meuHrInverso">
+
+        <!-- Horários de aula -->
+        <section class="bg-white bg-gradient-primary-to-secondary py-5" id="primeiro-acesso">
+            <div class="container px-5 text-left">
+
+                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4 text-white text-center">Horários de aula</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-4 text-center">
+                        <img src="../assets/img/horarios.jpg" class="img-fluid" alt="imagem horarios">
+                    </div>                       
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Você pode acessar pelo Campus Digital os seus horários de aula das disciplinas que você está cursando, de acordo com sua matrícula.</p>
+                        <br />
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Como acessar:</b></p>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Dentro do Campus Digital, selecione o menu Acadêmico, localize a área Horários e clique na opção Ver meus horários.</p>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                    </div>
+                                   
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Estacionamento -->
+        <section class="bg-white py-5" id="primeiro-acesso">
+            <div class="container px-5 text-left">
+
+                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Estacionamento</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Alunos do Campus POA que quiserem ter acesso ao estacionamento do campus devem solicitar seu acesso pelo Campus Digital durante o prazo de cadastramento. O prazo será divulgado oportunamente pelo campus.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Clique no menu Acadêmico, localize a área Requisições e entre na opção Vaga de Estacionamento.</p>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                    </div>
+                    <div class="col-4 text-left">
+                        <img src="../assets/img/estacionamento.jpg" class="img-fluid" alt="imagem estacionamento">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="meuHr">
+        
+        <!-- Crachá de identificação -->
+        <section class="bg-white py-5" id="primeiro-acesso">
+            <div class="container px-5 text-left">
+
+                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Crachá de identificação</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <img src="../assets/img/historico.jpg" class="img-fluid" alt="imagem historico">
+                    </div>
+                    <div class="col-8 px-5 py-3">
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">O uso de crachá de identificação do Campus é obrigatório para entrar, sair e circular pelo prédio. Você pode fazer o seu cadastrando seus dados pelo Campus Digital.</p>
+                        <br />
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
+                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Dentro do Campus Digital, selecione o menu Acadêmico, localize a área Cartões de Identificação e clique na opção Cadastro.</p>
+                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                    </div>
+                   
+                </div>
+
+            </div>
+        </section>
+
+
+        <br><br><br>
 
         <!-- Computadores pelo campus -->
         <section class="bg-white py-5" id="computadores">
@@ -200,7 +370,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12 px-5">
-                        <img src="assets/img/ctrl_alt_del.jpg" class="img-fluid" alt="imagem windows">
+                        <img src="../assets/img/ctrl_alt_del.jpg" class="img-fluid" alt="imagem windows">
                         <!-- <small> -->
                             <p class="mb-5 mb-lg-0 text-primary text-center"><b>Tela principal:</b> Pressione simultâneamente a combinação de teclas Crtl + Alt + Delete. Depois entre com seu usuário e senha</p>
                         <!-- </small> -->

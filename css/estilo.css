@@ -1,3 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.text-cinza{
+    color: #555 !important;
+}
+
+.active{
+    color: #359830 !important;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #359830 !important;
@@ -37,5 +49,15 @@ section{
     color: #359830 !important;
     height: 10px !important;
     transform: rotate(-2deg);
+    opacity: 1;
+}
+
+.meuHrInverso{
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: #fff !important;
+    color: #fff !important;
+    height: 10px !important;
+    transform: rotate(+2deg);
     opacity: 1;
 }
