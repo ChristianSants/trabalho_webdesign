@@ -61,3 +61,28 @@ section{
     transform: rotate(+2deg);
     opacity: 1;
 }
+
+#rematricula p{
+    font-size: 17px !important;
+}
+
+.arraste{
+    display: none !important;
+}
+
+@media (max-width: 576px) {
+    img.logo{
+        width: 225px !important;
+    }
+
+    img.img-carosel{
+        max-width: none !important;
+        width: 18.5rem !important;
+    }
+
+    .arraste{
+        display: inline !important;
+        font-size: 11px !important;
+        font-weight: 300 !important;
+    }
+} 
