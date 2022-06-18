@@ -21,18 +21,18 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg py-0 navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
+            <div class="container px-2 mx-2 px-md-5">
                 <!-- <a class="navbar-brand fw-bold" href="#page-top">Start Bootstrap</a> -->
-                <img src="assets/img/logo-if-padrao.png" alt="Logo" width="250px">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../assets/img/logo-if-padrao.png" class="logo" alt="Logo" width="250px" >
+                <button class="navbar-toggler mt-2 mt-md-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3 active" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="campusdigital/">Campus Digital</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="moodle/">Moodle</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3 active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="/campusdigital">Campus Digital</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="/moodle">Moodle</a></li>
                     </ul>
                     <!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
@@ -52,14 +52,14 @@
                 <div class="row gx-5 align-items-center mb-0 pb-0">
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <div class="mb-3 mb-md-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3">Guia do Aluno</h1>
                             <p class="lead fw-normal text-muted mb-5">O guia do aluno tem a finalidade de informar e orientar os alunos sobre o funcionamento dos sistemas e serviços do Campus POA.</p>
                         </div>
                     </div>
                     <div class="col"></div>
                     <div class="col-lg-4">
-                        <img src="assets/img//estudante.png" width="250px" alt="Estudante" >
+                        <img src="assets/img/estudante.png" width="250px" alt="Estudante" >
                     </div>
                 </div>
             </div>
@@ -77,33 +77,39 @@
         </header> -->
         
         <!-- App features section-->
-        <section id="features">
-            <div class="container px-5">
+        <section id="features" class="pt-3 pt-md-5">
+            <div class="container px-3 px-md-5">
                 <div class="row align-items-center">
-                    <div class="col-12 mb-5">
-                        <div class="container-fluid px-5">
-                            <div class="row">
+                    <div class="col-12 mb-3 mb-md-5">
+                        <div class="container-fluid px-2 px-md-5">
+                            <div class="row d-flex align-items-center">
 
-                                <div class="col-md-4 col-xs-12 mb-3 text-center py-3 px-5">
-                                    <h3 class="font-alt text-primary">Acesso Rápido</h3>
-                                    <div class="list-group">
+                                <div class="col-12 col-md-4 mb-3 px-4 py-3 px-0 px-md-5">
+                                    <div class="text-left text-center">
+                                        <h3 class="font-alt text-primary">Acesso Rápido</h3>
+                                    </div>
+                                    <div class="list-group text-left">
                                         <a href="#meu-cadastro" class="list-group-item list-group-item-action">Meu Cadastro</a>
                                         <a href="#primeiro-acesso" class="list-group-item list-group-item-action">Primeiro acesso</a>
                                         <a href="#computadores" class="list-group-item list-group-item-action">Computadores pelo Campus</a>
                                         <a href="#wifi" class="list-group-item list-group-item-action">Internet Wi-Fi</a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-xs-12 mb-3 text-center">
+                                <div class="col-12 col-md-4 mb-3 mb-md-5 text-center">
                                     <!-- Feature item-->
-                                    <img src="assets/img/campus_digital.png" class="mb-2" width="300px" alt="logo campus digital">
+                                    <a href="./campusdigital/">
+                                        <img src="assets/img/campus_digital.png" class="mb-2 ms-3 ms-md-0 img-fluid" width="300px" alt="logo campus digital">
+                                    </a>
                                     <div class="text-center">
                                         <!-- <h3 class="font-alt">Campus Digital</h3> -->
                                         <p class="text-cinza mb-0 p-3">O Campus Digital é o portal de serviços do IFRS Campus POA. Nele, você encontra os principais serviços online que o Campus oferece para a comunidade acadêmica.</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-xs-12 mb-3 text-center">
+                                <div class="col-12 col-md-4 mb-3 text-center">
                                     <!-- Feature item-->
-                                    <img src="assets/img/moodle.png" class="mb-2" width="250px" alt="logo campus digital">
+                                    <a href="./moodle/">
+                                        <img src="assets/img/moodle.png" class="mb-2 img-fluid" width="250px" alt="logo campus digital">
+                                    </a>
                                     <div class="text-center">
                                         <!-- <h3 class="font-alt">Moodle</h3> -->
                                         <p class="text-cinza text-left mb-0 p-3">É o Ambiente Virtual de Aprendizagem adotado pelo Campus POA. Nele o aluno pode acessar o conteúdo das aulas, enviar trabalhos, participar de fóruns e trocar mensagens com seus colegas e professores.</p>
@@ -140,20 +146,20 @@
 
         <!-- Meu cadastro-->
         <section class="bg-light bg-gradient-primary-to-secondary py-5" id="meu-cadastro">
-            <div class="container px-5 text-center">
+            <div class="container px-3 px-md-5 text-center">
 
-                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                <div class="row mb-3 mb-md-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
                         <h2 class="display-4 lh-1 mb-4 text-white text-center">Meu Cadastro</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0 text-meucadastro">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p>
+                    <div class="col-12 col-md-6">
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0 text-meucadastro"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p>
                     </div>
-                    <div class="col-6">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Senha:</b><br />Número do seu RG.</p>
+                    <div class="col-12 col-md-6">
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0 text-meucadastro"><b class="text-white">Senha:</b><br />Número do seu RG.</p>
                     </div>
                 </div>
 
@@ -162,24 +168,24 @@
 
         <!-- Primeiro acesso bg-light-->
         <section class="bg-white py-5" id="primeiro-acesso">
-            <div class="container px-5 text-left">
+            <div class="container px-3 px-md-5 text-left">
 
-                <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
+                <div class="row mb-1 mb-md-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
                         <h2 class="display-4 lh-1 mb-4 text-primary text-center">Primeiro acesso</h2>
-                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
+                        <!-- <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p>
                         <br />
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p> -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 px-5">
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">A sua senha de acesso, como dito antes, é o <b>número do seu RG</b>. Mas no primeiro acesso a um dos nossos computadores do Campus POA será solicitado que você escolha uma nova senha.
+                    <div class="col-12 col-md-6 px-md-5">
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">A sua senha de acesso, como dito antes, é o <b>número do seu RG</b>. Mas no primeiro acesso a um dos nossos computadores do Campus POA será solicitado que você escolha uma nova senha.
                         </p>
-                        <!-- <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
+                        <!-- <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0"><b class="text-white">Usuário:</b><br />Número da sua matrícula (apenas números), que pode ser encontrado no comprovante de matricula e no crachá de identificação.</p> -->
                     </div>
-                    <div class="col-6 px-5">
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p>
+                    <div class="col-12 col-md-6 px-md-5">
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">Você deve criar uma senha com no mínimo 8 caracteres, com pelo menos 3 letras minúsculas e 3 números. Essa será sua senha de agora em diante.</p>
                     </div>
                 </div>
 
@@ -190,29 +196,29 @@
 
         <!-- Computadores pelo campus -->
         <section class="bg-white py-5" id="computadores">
-            <div class="container px-5 text-left">
+            <div class="container px-3 px-md-5 text-left">
 
                 <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
-                        <h2 class="display-4 lh-1 mb-4 text-primary text-center">Computadores pelo Campus</h2>
-                        <!-- <p class="lead fw-normal text-dark mb-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p> -->
+                        <h2 class="display-4 lh-1 mb-0 mb-md-4 text-primary text-center">Computadores pelo Campus</h2>
+                        <!-- <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">Todo aluno do Campus POA possui um cadastro no sistema da instituição que dá acesso a diversas áreas e serviços do Campus. Você pode acessá-los utilizando seu usuário e senha.</p> -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-xs-12 px-5">
+                    <div class="col-12 col-md-6 px-md-5 order-md-first">
                         <img src="assets/img/ctrl_alt_del.jpg" class="img-fluid" alt="imagem windows">
                         <!-- <small> -->
-                            <p class="mb-5 mb-lg-0 text-primary text-center"><b>Tela principal:</b> Pressione simultâneamente a combinação de teclas Crtl + Alt + Delete. Depois entre com seu usuário e senha</p>
+                            <p class="mb-3 mb-md-5 mb-lg-0 text-primary text-center"><b>Tela principal:</b> Pressione simultâneamente a combinação de teclas Crtl + Alt + Delete. Depois entre com seu usuário e senha</p>
                         <!-- </small> -->
                     </div>
-                    <div class="col-6 px-5">
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">O aluno tem acesso a toda uma rede de computadores no campus, que estão à disposição para serem utilizados para pesquisas e trabalhos. Os computadores estão localizados nos laboratórios de informática e na biblioteca.</p>
+                    <div class="col-12 col-md-6 px-3 px-md-5 order-first">
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">O aluno tem acesso a toda uma rede de computadores no campus, que estão à disposição para serem utilizados para pesquisas e trabalhos. Os computadores estão localizados nos laboratórios de informática e na biblioteca.</p>
                         <br/>
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0">Você pode acessar os computadores entrando com seu usuário e senha na tela de Logon.</p>
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0"><b class="text-primary">Como acessar:</b></p>
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0">Você pode acessar os computadores entrando com seu usuário e senha na tela de Logon.</p>
                         <br />
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><b class="text-primary">Onde você tem acesso aos computadores:</b></p>
-                        <p class="lead fw-normal text-dark mb-5 mb-lg-0"><li>Biblioteca - Mezanino (Torre Norte)</li><li>Laboratórios de informática</li></p>
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0"><b class="text-primary">Onde você tem acesso aos computadores:</b></p>
+                        <p class="lead fw-normal text-dark mb-3 mb-md-5 mb-lg-0"><li>Biblioteca - Mezanino (Torre Norte)</li><li>Laboratórios de informática</li></p>
                     </div>
                 </div>
 
@@ -221,42 +227,42 @@
 
         <!-- Wifi-->
         <section class="bg-light bg-gradient-primary-to-secondary py-5" id="wifi">
-            <div class="container px-5 text-left">
+            <div class="container px-3 px-md-5 text-left">
 
                 <div class="row mb-4 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12">
                         <h2 class="display-4 lh-1 mb-4 text-white text-center">Internet Wi-Fi</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Em todo o prédio do campus os alunos têm acesso à internet Wi-Fi.</p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0">Em todo o prédio do campus os alunos têm acesso à internet Wi-Fi.</p>
                         <br />
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Como acessar:</b></p>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Acesse em seu dispositivo a rede IFRS-POA. Entre no navegador e será redirecionado para a página de acesso: o Captive Portal. Entre com seu usuário e senha.</p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0"><b class="text-white">Como acessar:</b></p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0">Acesse em seu dispositivo a rede IFRS-POA. Entre no navegador e será redirecionado para a página de acesso: o Captive Portal. Entre com seu usuário e senha.</p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-6 pr-3">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Acessar pelo Smartphone</b></p>
+                    <div class="col-12 col-md-6 pr-3 mb-md-0 mb-5">
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0"><b class="text-white">Acessar pelo Smartphone</b></p>
                         <div class="text-center my-4">
                             <img src="assets/img/captiveportalmobile.png" width="340px" class="img-fluid img-thumbnail" alt="imagem windows">
                         </div>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Em seu smartphone acesse a rede IFRS-POA. Em seguida entre no seu navegador para ser redirecionado para a página de acesso à rede. Agora é só entrar com seu usuário e senha do campus e pronto, já pode navegar!</p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0">Em seu smartphone acesse a rede IFRS-POA. Em seguida entre no seu navegador para ser redirecionado para a página de acesso à rede. Agora é só entrar com seu usuário e senha do campus e pronto, já pode navegar!</p>
                     </div>
-                    <div class="col-6 pr-3">
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0"><b class="text-white">Acessar pelo computador</b></p>
+                    <div class="col-12 col-md-6 pr-3">
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0"><b class="text-white">Acessar pelo computador</b></p>
                         <div class="text-center my-4">
                             <img src="assets/img/captiveportaldesktop.png" class="img-fluid img-thumbnail" alt="imagem windows">
                         </div>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Em seu notebook acesse a rede IFRS-POA. Em seguida entre no seu navegador para ser redirecionado para a página do Captive Portal, que será diferente da página acessada pelo smartphone. Agora é só entrar com seu usuário e senha do campus e pronto!</p>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0">Em seu notebook acesse a rede IFRS-POA. Em seguida entre no seu navegador para ser redirecionado para a página do Captive Portal, que será diferente da página acessada pelo smartphone. Agora é só entrar com seu usuário e senha do campus e pronto!</p>
                     </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 order-md-first">
                         <div class="text-center">
                             <img src="assets/img/error-how.png" class="img-fluid img-thumbnail" alt="imagem windows">
                         </div>
                     </div>
-                    <div class="col-6">
-                        <h2 class="lh-1 text-muted mb-5 mb-lg-0"><b class="text-white">Problemas para acessar?</b></h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Se você visualizar a tela ao lado tentando acessar o Wifi:<br /><br />
+                    <div class="col-12 col-md-6 order-first">
+                        <h2 class="lh-1 text-muted mb-3 mb-md-5 mb-lg-0"><b class="text-white">Problemas para acessar?</b></h2>
+                        <p class="lead fw-normal text-muted mb-3 mb-md-5 mb-lg-0">Se você visualizar a tela ao lado tentando acessar o Wifi:<br /><br />
 
                             Clique no botão Avançado. Ficará visivel <b class="text-white">"Ir para captiveportal.poa.ifrs.edu.br"</b><br /><br />
                             

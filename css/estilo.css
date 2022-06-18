@@ -54,11 +54,11 @@ section{
 
 .meuHrInverso{
     margin: 0px !important;
-    padding: 0px !important;
     background-color: #fff !important;
     color: #fff !important;
-    height: 10px !important;
-    transform: rotate(+2deg);
+    height: 5px !important;
+    /* transform: rotate(+2deg); */
+
     opacity: 1;
 }
 
@@ -68,6 +68,10 @@ section{
 
 .arraste{
     display: none !important;
+}
+
+a:hover{
+    color: #359830 !important;
 }
 
 @media (max-width: 576px) {
@@ -84,5 +88,9 @@ section{
         display: inline !important;
         font-size: 11px !important;
         font-weight: 300 !important;
+    }
+
+    .text-meucadastro{
+        text-align: left !important;
     }
 } 
