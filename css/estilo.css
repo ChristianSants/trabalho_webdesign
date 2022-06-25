@@ -74,6 +74,10 @@ a:hover{
     color: #359830 !important;
 }
 
+.no-hover:hover{
+    color: inherit !important;
+}
+
 @media (max-width: 576px) {
     img.logo{
         width: 225px !important;
@@ -91,6 +95,10 @@ a:hover{
     }
 
     .text-meucadastro{
+        text-align: left !important;
+    }
+
+    .textoCabecalho{
         text-align: left !important;
     }
 } 
